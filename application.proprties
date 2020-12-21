@@ -1,1 +1,12 @@
+spring.datasource.url=jdbc:mysql://localhost:3306/mphasisdb
+spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver
+spring.datasource.username=root
+spring.datasource.password=sriVenkat@123
 
+spring.jpa.data-platform=org.hibernate.dialect.MySQL5Dialect
+spring.jpa.hibernate.ddl-auto=create-drop
+spring.jpa.properties.hibernate.show_sql=true
+spring.jpa.properties.hibernate.format_sql=true
+
+spring.datasource.hikari.maximum-pool-size=200
+spring.datasource.hikari.connection-timeout=60000
